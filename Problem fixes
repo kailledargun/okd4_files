@@ -1,0 +1,5 @@
+if ecdctl container already exists on bootstrap
+
+ssh core@bootstrapnode //
+sudo podman ps -a //(look at container-ID with problem). In my case says: fb4fe215188e
+delete container-id (sudo podman rm fb4fe215188e) //
